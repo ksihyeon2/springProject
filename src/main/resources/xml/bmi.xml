@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="person1" class="com.spring.sExam.exam1211.BMIVO">
+		<property name="name" value="홍길동" />
+		<property name="height" value="179" />
+		<property name="weight" value="40" />
+	</bean>
+	
+	<bean id="person2" class="com.spring.sExam.exam1211.BMIVO">
+		<property name="name" value="김말숙" />
+		<property name="height" value="162" />
+		<property name="weight" value="60" />
+	</bean>
+	
+	<bean id="person3" class="com.spring.sExam.exam1211.BMIVO">
+		<property name="name" value="이기자" />
+		<property name="height" value="188" />
+		<property name="weight" value="78" />
+	</bean>
+	
+</beans>
